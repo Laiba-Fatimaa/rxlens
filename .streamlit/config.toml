@@ -1,23 +1,17 @@
+
+
 '''[theme]
-base = "dark"
-primaryColor = "#14B8A6"
-backgroundColor = "#0B0F19"
-secondaryBackgroundColor = "#111827"
-textColor = "#F3F4F6"
-font = "sans serif"
-
-[theme]
-base = "light"
-primaryColor = "#4F46E5"
-backgroundColor = "#F5F7FF"
-secondaryBackgroundColor = "#EEF2FF"
-textColor = "#1E293B"
-font = "sans serif"'''
-
-[theme]
 base = "dark"
 primaryColor = "#22D3EE"
 backgroundColor = "#0B1020"
 secondaryBackgroundColor = "#131B33"
 textColor = "#E6EDF7"
+font = "sans serif"'''
+
+[theme]
+base = "dark"
+primaryColor = "#3B82F6"
+backgroundColor = "#0A0F1C"
+secondaryBackgroundColor = "#0F1729"
+textColor = "#E5EAF3"
 font = "sans serif"
