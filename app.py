@@ -15,7 +15,7 @@ def get_db():
 
 
 DB = get_db()
-BRANDS = sorted(d["brand"] for d in DB.values())
+BRANDS = sorted((d["brand"] for d in DB.values()), key=str.lower)
 WHO = ["Myself (adult)", "Another adult", "A child"]
 DEMO_NAMES = ["Panadol Extra", "Panadol Cold & Flu"]
 
@@ -48,6 +48,7 @@ def src_kind(source):
 N_BOX = sum(1 for d in DB.values() if src_kind(d["source"]) == "box")
 N_DOC = sum(1 for d in DB.values() if src_kind(d["source"]) == "doc")
 N_REF = sum(1 for d in DB.values() if src_kind(d["source"]) == "ref")
+BOX_SET = {d["brand"] for d in DB.values() if src_kind(d["source"]) == "box"}
 
 # ======================= STYLES =======================
 st.markdown("""
@@ -112,9 +113,10 @@ header[data-testid="stHeader"] {background: transparent;}
 .stat b {display:block; color:#fff; font-size:1.6rem; font-weight:800; letter-spacing:-.5px;}
 .stat span {color:#8E9BBA; font-size:.78rem;}
 .pair {display:flex; align-items:center; gap:10px; flex-wrap:wrap;}
-.pbox {background:#0B1020; border:1px solid #2F3E66; border-radius:12px; padding:10px 14px;}
+.pbox {background:#0B1020; border:1px solid #2F3E66; border-radius:12px; padding:10px 16px;
+  display:flex; flex-direction:column; align-items:center; text-align:center;}
 .pbox b {display:block; color:#fff; font-size:.9rem;}
-.chip {display:inline-block; margin-top:5px; font-size:.7rem; font-weight:700; color:#FCA5A5;
+.chip {display:inline-block; margin-top:6px; font-size:.7rem; font-weight:700; color:#FCA5A5;
   background:rgba(248,113,113,.12); border:1px solid rgba(248,113,113,.4); border-radius:999px; padding:1px 9px;}
 .plus {color:#22D3EE; font-size:1.3rem; font-weight:700;}
 @media (max-width:760px){.stats{grid-template-columns:repeat(2,1fr);} .hero-h{font-size:2rem;}}
@@ -190,6 +192,12 @@ div.stButton > button:disabled {background:#101830; color:#475569; border-color:
 [data-testid="stSidebar"] {background:#0C1328 !important; border-right:1px solid #243056;}
 [data-testid="stSidebar"] * {color:#E6EDF7;}
 [data-testid="stSidebar"] [data-testid="stMetricValue"] {color:#22D3EE;}
+
+/* ---- dropdown list stays visible ---- */
+div[data-baseweb="popover"] {z-index: 999999 !important;}
+div[data-baseweb="popover"] ul, ul[role="listbox"] {background:#131B33 !important;}
+div[data-baseweb="popover"] li, ul[role="listbox"] li {color:#E6EDF7 !important;}
+div[data-baseweb="popover"] li:hover, ul[role="listbox"] li:hover {background:#1E2A4D !important;}
 </style>
 """, unsafe_allow_html=True)
 
@@ -551,8 +559,11 @@ else:
                     if name.strip():
                         names.append(name.strip())
             with tab_list:
-                st.caption("No photo? Choose from the database instead.")
-                names += st.multiselect("Medicines", BRANDS, key="picked", label_visibility="collapsed")
+                st.caption("Click the box and type a few letters to search. ✓ means the box was checked by hand.")
+                names += st.multiselect(
+                    "Medicines", BRANDS, key="picked",
+                    format_func=lambda b: f"{b}  ✓" if b in BOX_SET else b,
+                    label_visibility="collapsed")
 
         st.metric("Medicines queued", len(names))
         auto_run = bool(st.session_state.pop("auto_run", False)) and len(names) >= 2

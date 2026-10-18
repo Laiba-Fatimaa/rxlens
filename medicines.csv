@@ -25,10 +25,9 @@ Strepsils,amylmetacresol;dichlorobenzyl alcohol,strengths not recorded,public re
 Neurobion,vitamin b1;vitamin b6;vitamin b12,strengths not recorded,public reference (not box-verified),supplement
 Synflex,naproxen,550 mg,public reference (not box-verified),nsaid
 Novidat,ciprofloxacin,500 mg,public reference (not box-verified),antibiotic
-Azomax,azithromycin,500 mg,public reference (not box-verified),antibiotic
 Klaricid,clarithromycin,500 mg,public reference (not box-verified),antibiotic
 Dalacin C,clindamycin,300 mg,public reference (not box-verified),antibiotic
-Infazith,azithromycin, 500 mg,verified box scan,antibiotic
+Infazith,azithromycin,500 mg,verified box scan,antibiotic
 Kanadex-N,dexamethasone;neomycin,strengths not recorded,verified box scan,corticosteroid;antibiotic;topical
 Esolex,escitalopram,5 mg,verified box scan,antidepressant;ssri
 Cefim,cefixime,200 mg,verified box scan,antibiotic
@@ -39,3 +38,79 @@ Sufzon,cefoperazone;sulbactam,strengths not recorded,verified box scan,antibioti
 Otosporin,polymyxin b;neomycin;hydrocortisone,strengths not recorded,public reference (not box-verified),antibiotic;corticosteroid;topical
 Somogel,lidocaine;cetylpyridinium chloride,strengths not recorded,verified box scan,local anaesthetic;antiseptic;topical
 Xynosine,xylometazoline,strengths not recorded,verified box scan,decongestant;nasal
+Lexotanil,bromazepam,3 mg,verified box scan,benzodiazepine;sedative
+Befalm,diclofenac,75 mg,verified box scan,nsaid
+Azomax,azithromycin,250 mg,verified box scan,antibiotic
+Cipotent,ciprofloxacin,500 mg,verified box scan,antibiotic
+Chymoral Forte,trypsin;chymotrypsin,strengths not recorded,verified box scan,enzyme;anti-inflammatory
+Vildomet,vildagliptin;metformin,50 mg + 500 mg,verified box scan,antidiabetic
+Methycobal,mecobalamin,500 mcg,verified box scan,supplement
+Nuberol Forte,paracetamol;orphenadrine,650 mg + 50 mg,verified box scan,analgesic;muscle relaxant
+Amaryl M,glimepiride;metformin,1 mg + 500 mg,verified box scan,antidiabetic
+Cataflam,diclofenac,50 mg,public reference (not box-verified),nsaid
+Olfen,diclofenac,50 mg,public reference (not box-verified),nsaid
+Caflam,diclofenac,50 mg,public reference (not box-verified),nsaid
+Amoxil,amoxicillin,500 mg,public reference (not box-verified),antibiotic
+Zithromax,azithromycin,500 mg,public reference (not box-verified),antibiotic
+Ciproxin,ciprofloxacin,500 mg,public reference (not box-verified),antibiotic
+Risek,omeprazole,20 mg,public reference (not box-verified),ppi
+Nexum,esomeprazole,20 mg,public reference (not box-verified),ppi
+Zyrtec,cetirizine,10 mg,public reference (not box-verified),antihistamine
+Rigix,cetirizine,10 mg,public reference (not box-verified),antihistamine
+Claritin,loratadine,10 mg,public reference (not box-verified),antihistamine
+Telfast,fexofenadine,120 mg,public reference (not box-verified),antihistamine
+Avil,pheniramine,25 mg,public reference (not box-verified),antihistamine
+Motilium,domperidone,10 mg,public reference (not box-verified),antiemetic
+Imodium,loperamide,2 mg,public reference (not box-verified),antidiarrheal
+Glucophage,metformin,500 mg,public reference (not box-verified),antidiabetic
+Norvasc,amlodipine,5 mg,public reference (not box-verified),antihypertensive
+Concor,bisoprolol,5 mg,public reference (not box-verified),antihypertensive
+Tenormin,atenolol,50 mg,public reference (not box-verified),antihypertensive
+Lipitor,atorvastatin,20 mg,public reference (not box-verified),statin
+Panadol Advance,paracetamol,500 mg,public reference (not box-verified),analgesic
+Panadol CF,paracetamol;pseudoephedrine;chlorpheniramine,500 mg + 30 mg + 2 mg,public reference (not box-verified),analgesic;decongestant
+Softin,loratadine,10 mg,public reference (not box-verified),antihistamine
+Xyzal,levocetirizine,5 mg,public reference (not box-verified),antihistamine
+Lasix,furosemide,40 mg,public reference (not box-verified),diuretic
+Loprin,aspirin,75 mg,public reference (not box-verified),nsaid
+Tylenol,paracetamol,500 mg,public reference (not box-verified),analgesic
+Nurofen,ibuprofen,200 mg,public reference (not box-verified),nsaid
+Naprosyn,naproxen,500 mg,public reference (not box-verified),nsaid
+Celebrex,celecoxib,200 mg,public reference (not box-verified),nsaid
+Arcoxia,etoricoxib,90 mg,public reference (not box-verified),nsaid
+Mobic,meloxicam,15 mg,public reference (not box-verified),nsaid
+Feldene,piroxicam,20 mg,public reference (not box-verified),nsaid
+Pepcid,famotidine,20 mg,public reference (not box-verified),h2 blocker
+Losec,omeprazole,20 mg,public reference (not box-verified),ppi
+Controloc,pantoprazole,40 mg,public reference (not box-verified),ppi
+Pariet,rabeprazole,20 mg,public reference (not box-verified),ppi
+Keflex,cephalexin,500 mg,public reference (not box-verified),antibiotic
+Zinnat,cefuroxime,500 mg,public reference (not box-verified),antibiotic
+Cravit,levofloxacin,500 mg,public reference (not box-verified),antibiotic
+Avelox,moxifloxacin,400 mg,public reference (not box-verified),antibiotic
+Vibramycin,doxycycline,100 mg,public reference (not box-verified),antibiotic
+Bactrim,sulfamethoxazole;trimethoprim,400 mg + 80 mg,public reference (not box-verified),antibiotic
+Diflucan,fluconazole,150 mg,public reference (not box-verified),antifungal
+Lamisil,terbinafine,250 mg,public reference (not box-verified),antifungal
+Zovirax,acyclovir,400 mg,public reference (not box-verified),antiviral
+Tamiflu,oseltamivir,75 mg,public reference (not box-verified),antiviral
+Amaryl,glimepiride,2 mg,public reference (not box-verified),antidiabetic
+Januvia,sitagliptin,100 mg,public reference (not box-verified),antidiabetic
+Diamicron,gliclazide,80 mg,public reference (not box-verified),antidiabetic
+Cozaar,losartan,50 mg,public reference (not box-verified),antihypertensive
+Diovan,valsartan,80 mg,public reference (not box-verified),antihypertensive
+Zestril,lisinopril,10 mg,public reference (not box-verified),antihypertensive
+Lopressor,metoprolol,50 mg,public reference (not box-verified),antihypertensive
+Plavix,clopidogrel,75 mg,public reference (not box-verified),antiplatelet
+Zocor,simvastatin,20 mg,public reference (not box-verified),statin
+Crestor,rosuvastatin,10 mg,public reference (not box-verified),statin
+Aldactone,spironolactone,25 mg,public reference (not box-verified),diuretic
+Eltroxin,levothyroxine,100 mcg,public reference (not box-verified),thyroid
+Singulair,montelukast,10 mg,public reference (not box-verified),antiasthmatic
+Aerius,desloratadine,5 mg,public reference (not box-verified),antihistamine
+Actifed,triprolidine;pseudoephedrine,2.5 mg + 60 mg,public reference (not box-verified),antihistamine;decongestant
+Dulcolax,bisacodyl,5 mg,public reference (not box-verified),laxative
+Vermox,mebendazole,100 mg,public reference (not box-verified),anthelmintic
+Stemetil,prochlorperazine,5 mg,public reference (not box-verified),antiemetic
+Zofran,ondansetron,4 mg,public reference (not box-verified),antiemetic
+Folic Acid,folic acid,5 mg,public reference (not box-verified),supplement
