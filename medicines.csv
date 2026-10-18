@@ -1,0 +1,31 @@
+brand,ingredients,strength,source,drug_class
+Panadol,paracetamol,500 mg,verified box scan,analgesic
+Panadol Extra,paracetamol;caffeine,500 mg + 65 mg,verified box scan,analgesic
+Panadol Cold & Flu,paracetamol;pseudoephedrine;chlorpheniramine,500 mg + 30 mg + 2 mg,verified box scan,analgesic;decongestant
+Calpol,paracetamol,120 mg/5 ml,verified box scan,analgesic
+Brufen,ibuprofen,400 mg,verified box scan,nsaid
+Disprin,aspirin,300 mg,verified box scan,nsaid
+Voltaren,diclofenac,50 mg,package leaflet,nsaid
+Ponstan,mefenamic acid,500 mg,verified box scan,nsaid
+Augmentin,amoxicillin;clavulanic acid,625 mg,verified box scan,antibiotic
+Flagyl,metronidazole,400 mg,verified box scan,antibiotic
+Arinac Forte,ibuprofen;pseudoephedrine,400 mg + 60 mg,verified box scan,nsaid;decongestant
+Gravinate,dimenhydrinate,50 mg,verified box scan,antiemetic;antihistamine
+Atatox,activated attapulgite,500 mg,verified box scan,antidiarrheal
+Septran DS,sulfamethoxazole;trimethoprim,800 mg + 160 mg,verified box scan,antibiotic
+Cac-1000 Plus,calcium;vitamin d3;vitamin c;vitamin b6,strengths not recorded,verified box scan,supplement
+Zental,albendazole,200 mg,verified box scan,anthelmintic
+Buscopan Plus,hyoscine butylbromide;paracetamol,10 mg + 500 mg,verified box scan,antispasmodic;analgesic
+Macromyd,azithromycin,250 mg,verified box scan,antibiotic
+Leflox,levofloxacin,250 mg,verified box scan,antibiotic
+Buscopan,hyoscine butylbromide,10 mg,public reference (not box-verified),antispasmodic
+Benadryl,diphenhydramine,strengths not recorded,public reference (not box-verified),antihistamine
+Gaviscon,sodium alginate;sodium bicarbonate;calcium carbonate,strengths not recorded,public reference (not box-verified),antacid
+Strepsils,amylmetacresol;dichlorobenzyl alcohol,strengths not recorded,public reference (not box-verified),throat lozenge
+Neurobion,vitamin b1;vitamin b6;vitamin b12,strengths not recorded,public reference (not box-verified),supplement
+Synflex,naproxen,550 mg,public reference (not box-verified),nsaid
+Novidat,ciprofloxacin,500 mg,public reference (not box-verified),antibiotic
+Azomax,azithromycin,500 mg,public reference (not box-verified),antibiotic
+Klaricid,clarithromycin,500 mg,public reference (not box-verified),antibiotic
+Dalacin C,clindamycin,300 mg,public reference (not box-verified),antibiotic
+Infazith,azithromycin, 500 mg,verified box scan,antibiotic
