@@ -5,7 +5,7 @@ import time
 from rapidfuzz import process, fuzz
 from google.genai import types
 
-MODEL = "gemini-3.8-flash"   # if you get a 404, run list_models.py and use a current flash model
+MODEL = "gemini-3.5-flash-lite"   # if you get a 404, run list_models.py and use a current flash model
 MATCH_CUTOFF = 80
 
 # Usual ADULT label maximums. Verify against your leaflets and cite them in the README.
