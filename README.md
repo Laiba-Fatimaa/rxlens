@@ -33,8 +33,7 @@ not medical advice.
    decision, so every result traces to a database row and a rule.
 
 The model is prompted to return only JSON with `brand_name` and `strength`,
-and to leave a field empty rather than guess. The app retries automatically
-if the API is busy.
+and to leave a field empty rather than guess. If the API is unavailable or its usage limit is reached, users can enter medicine names manually and use the duplicate-checking features.
 
 ## Features
 - Photo scan or pick-from-list input
@@ -55,12 +54,7 @@ if the API is busy.
 ![Child mode](screenshots/child.png)
 
 ## Evaluation
-Small manual test on real packaging photos (box-verified products only):
-- AI read the product name correctly: X of N
-- Duplicate detection correct on N pairs: X of N
-- Failures and why: WRITE HONESTLY (for example glare, blurry photo)
-
-This is a small test, not a clinical validation.
+This prototype has undergone initial functional testing. A larger, systematic evaluation of medicine identification accuracy and duplicate detection is still needed.
 
 ## Data
 `medicines.csv` holds each product's ingredients, strength, drug class and a
