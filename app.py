@@ -541,7 +541,7 @@ else:
                     st.markdown("**Check what the AI read.** Fix anything that's wrong.")
                 for i, f in enumerate(files or []):
                     key = f"{f.name}-{f.size}"
-                    if key not in st.session_state or "error" in st.session_state[key]:
+                    if key not in st.session_state:
                         with st.spinner(f"Reading {f.name}…"):
                             try:
                                 st.session_state[key] = extract_name(client, Image.open(f), MODEL)
